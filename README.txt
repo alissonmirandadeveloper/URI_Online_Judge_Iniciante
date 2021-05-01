@@ -8,7 +8,7 @@ Para testar no URI Online deve-se retirar o nome do pacote que está localizado 
 A plataforma não aceita o uso de package.
 No uso da linguagem java o nome da class necessarimente precisa ser nomeada como <Main>
 
-======================================================================================================
+====================================================================================================
 
 
 Resolutions category Beginner URI Online Judge
