@@ -10,7 +10,8 @@ public class Main {
 		Locale.setDefault(Locale.US);
 		Scanner input = new Scanner(System.in);
 		
-		double maiorAB;
+		int maiorAB;
+		int maiorABC;
 		int ehMaior;
 		int a = input.nextInt();
 		int b = input.nextInt();
@@ -18,19 +19,11 @@ public class Main {
 		
 		
 		maiorAB = (a + b + Math.abs(a - b)) / 2;
+		maiorABC = (maiorAB + c + Math.abs(maiorAB - c)) / 2;
 		
-		if ((a > b) && (a > c)) {
-			ehMaior = a;
-		}
-		else if (b > c) {
-			ehMaior = b;
-		}
-		else {
-			ehMaior = c;
-		}
+	
 		
-		
-		System.out.println(ehMaior + " eh o maior");
+		System.out.println(maiorABC + " eh o maior");
 	}
 
 }
